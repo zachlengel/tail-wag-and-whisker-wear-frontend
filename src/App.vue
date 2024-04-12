@@ -2,6 +2,7 @@
 import Header from "./components/Header.vue";
 import Content from "./components/Content.vue";
 import Footer from "./components/Footer.vue";
+// import logo from "./assets/logo.png";
 
 export default {
   name: "app",
@@ -16,6 +17,7 @@ export default {
 <template>
   <div>
     <Header />
+    <!-- <img v-bind:src="logo.png" width="300px" height="300px" /> -->
     <Content />
     <Footer />
   </div>
