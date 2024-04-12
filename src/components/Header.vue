@@ -13,6 +13,7 @@
       <a href="#">Advice</a>
     </nav>
     <img src= "./logo.png" width= "400px" height= "200px" />
+    <img src= "./logo2.png" width= "400px" height= "200px" />
   </header>
 </template>
 
