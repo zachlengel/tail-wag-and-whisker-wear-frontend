@@ -1,9 +1,11 @@
 <script>
 import OutfitsIndex from "./OutfitsIndex.vue";
+import OutfitsNew from "./OutfitsNew.vue";
 
 export default {
   components: {
     OutfitsIndex,
+    PhotosNew,
   },
   data: function () {
     return {
@@ -13,11 +15,25 @@ export default {
       ],
     };
   },
+  methods: {
+    handleCreateOutfit: function (params) {
+       axios
+         .post("http://localhost:3000/outfits.json", params)
+         .then((response) => {
+           console.log("outfits create", response);
+           this.outfits.push(response.data);
+         })
+         .catch((error) => {
+           console.log("outfits create error", error.response);
+         });
+     },
+  }
 };
 </script>
 
 <template>
   <main>
+    <OutfitsNew v-on:createOutfit="handleCreateOutfit"/>
     <OutfitsIndex v-bind:outfits="outfits" />
   </main>
 </template>
