@@ -4,6 +4,38 @@ html {
   background-image: url(https://media.istockphoto.com/id/1298623258/vector/pets-cats-and-dogs-seamless-pattern-in-doodle-style.jpg?s=612x612&w=0&k=20&c=aBGESJnmydI7uM1Yu8bWCm0Obf0YBG8sahzR3KJgffY=);
 }
 
+body {
+  margin: 0px;
+}
+
+#navbar {
+  margin: 0px;
+  background-image: url(https://media.istockphoto.com/id/1325659719/vector/cut-animals-lining-up-watching-you.jpg?s=612x612&w=0&k=20&c=4Fh0MoQqH0KSOGWNaDXfGGiOhA5UnQxHdWNl7J0zQiM=);
+  padding: 1.8rem;
+}
+
+#navbar h1 {
+  text-align: center;
+  color: white;
+  font-size: calc(1vh + 1vw);
+  background-color: rgba(0, 0, 0, 0.766);
+  margin: 0rem 25rem 1rem 25rem;
+  border-radius: 5rem;
+  padding: 1rem;
+}
+
+#navbar a {
+  color: white;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/513/837/small/dog-bone-illustration-png.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 77%;
+  padding: 2rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  font-size: calc(3vh + 3vw);
+}
+
 #outfits {
   background-color: rgba(0, 0, 0, 0.782);
   color: white;
