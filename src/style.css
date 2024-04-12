@@ -4,6 +4,24 @@ html {
   background-image: url(https://media.istockphoto.com/id/1298623258/vector/pets-cats-and-dogs-seamless-pattern-in-doodle-style.jpg?s=612x612&w=0&k=20&c=aBGESJnmydI7uM1Yu8bWCm0Obf0YBG8sahzR3KJgffY=);
 }
 
+body {
+  margin: 0px;
+}
+
+#navbar {
+  margin: 0px;
+  background-image: url(https://media.istockphoto.com/id/1325659719/vector/cut-animals-lining-up-watching-you.jpg?s=612x612&w=0&k=20&c=4Fh0MoQqH0KSOGWNaDXfGGiOhA5UnQxHdWNl7J0zQiM=);
+  padding: 3rem;
+  font-size: 4rem;
+}
+
+#navbar a {
+  color: black;
+  background-color: white;
+  padding: 1rem;
+  bord
+}
+
 #outfits {
   background-color: rgba(0, 0, 0, 0.782);
   color: white;

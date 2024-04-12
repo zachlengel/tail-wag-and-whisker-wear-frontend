@@ -2,7 +2,7 @@
 
 <template>
   <header>
-    <nav>
+    <nav id="navbar">
       <a href="#">Home</a>
       |
       <a href="#">Link</a>
