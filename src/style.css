@@ -29,11 +29,13 @@ body {
   background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/513/837/small/dog-bone-illustration-png.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 77%;
-  padding: 2rem;
+  background-size: 97%;
+  padding: 2.5rem;
   border-radius: 5rem;
   text-decoration: none;
-  font-size: calc(3vh + 3vw);
+  font-size: 2.5rem;
+  margin: 3rem 4rem 4rem 3rem;
+  position: relative;
 }
 
 #outfits {
