@@ -9,7 +9,7 @@ export default {
 <template>
   <div>
     <h1>All outfits</h1>
-    <div v-for="outfit in outfits" v-bind:key="outfit.id">
+    <div v-for="outfit in outfits" v-bind:key="outfit.id" id="outfits">
       <h2>{{ outfit.name }}</h2>
       <img v-bind:src="outfit.url" width="300px" height="300px" />
       <p>Price: {{ outfit.price }}</p>

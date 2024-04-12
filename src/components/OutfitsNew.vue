@@ -1,21 +1,21 @@
 <script>
 export default {
-   data: function () {
-     return {
-       newOutfitParams: {},
-     };
-   },
-   methods: {
-     handleSubmit: function () {
-       this.$emit("createOutfit", this.newOutfitParams);
-       this.newOutfitParams = {};
-     },
-   },
- };
+  data: function () {
+    return {
+      newOutfitParams: {},
+    };
+  },
+  methods: {
+    handleSubmit: function () {
+      this.$emit("createOutfit", this.newOutfitParams);
+      this.newOutfitParams = {};
+    },
+  },
+};
 </script>
 
 <template>
-  <div>
+  <div id="newoutfits">
     <h1>New Posting</h1>
     <form>
       <div>

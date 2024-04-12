@@ -1,3 +1,23 @@
 html {
   scroll-behavior: smooth;
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/id/1298623258/vector/pets-cats-and-dogs-seamless-pattern-in-doodle-style.jpg?s=612x612&w=0&k=20&c=aBGESJnmydI7uM1Yu8bWCm0Obf0YBG8sahzR3KJgffY=);
+}
+
+#outfits {
+  background-color: rgba(0, 0, 0, 0.782);
+  color: white;
+  border-radius: 8rem;
+  margin: 3rem 15rem;
+  padding: 2rem;
+
+}
+
+#newoutfits {
+  background-color: rgba(0, 0, 0, 0.782);
+  color: white;
+  border-radius: 8rem;
+  margin: 3rem 15rem;
+  padding: 2rem;
+  box-shadow: 1rem 1rem 3rem black;
 }
